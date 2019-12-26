@@ -5,6 +5,8 @@
 
 >Python is a very high level, useful programming language for making simple programs developing applications, and solving problems.
 
+>everything in Python occurs inside the terminal, he terminal is at the heart of all of the proccesses in Python even with a graphical user interface all proccesses are run in the terminal.
+
 ## Comments
 
 	''' 
@@ -12,41 +14,43 @@
 	line 
 	comment
 	'''
+	
 	#single line comment
 
 ## Basic Syntax
-print("this is how to output on screen")
+### Output
 
-name = (jake) 	#variable types do not have to be defined
+	print("this is how to output on screen")
 
-print (name)   #this is outputing a variable
+If you are outputting a variable you do not need to use quotes:
 
-print ("nice to meet you" + name + "!")		#this is outputing a variable and a sentence
+	print(variable)
 
+### Input
 
+you can take input to a variable with the following syntax:
 
-OPERATORS
+	name = input("what is your name? ")
 
-arithmetic operators
-+,plus						# "+" is also used for string concatenation
--,minus
-*,multiply
-/,divide
-√,square root
+### IF statements
+an if statement can be created using the following syntax:
 
-
-
-IF/ELSE
-	
-if age >= 80
-	print("you cant drive")			#you can have multiple if statments
-	
-else:
-	print("you can drive with a licence")			# you can only have a single else statment
+	if age < 17:
+		print("you may not drive")
+	else:
+		print("you may drive with a licence")
 
 
+## Variables
+Python is what we call a "dynamic type" language, this means that we do not have to declare the data type when we create a variable.
 
-INPUT
+	car = "ford"
+
+### Concatenation
+to combine or concatenate strings and variables use this syntax:
+
+	print("I have a " + car)
+
 
 name = input ("whats your name")		#this will allow the user to input thier name
 	print("hello" + name + "!")
