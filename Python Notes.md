@@ -1,19 +1,20 @@
-import random
-import sys
-import os
-import math
+# **PYTHON NOTES**
+***
 
+## Fundamentals
 
-# comment
+>Python is a very high level, useful programming language for making simple programs developing applications, and solving problems.
 
-''' 
-multi line
-'''
+## Comments
 
+	''' 
+	multi 
+	line 
+	comment
+	'''
+	#single line comment
 
-
-OUTPUT
-
+## Basic Syntax
 print("this is how to output on screen")
 
 name = (jake) 	#variable types do not have to be defined

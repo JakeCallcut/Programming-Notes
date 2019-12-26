@@ -1,12 +1,5 @@
 # JAVA NOTES
-
-## Comments	
-	//this is a single line comment
-
-	/*
-	this is a multiline comment
-	*/
-	
+***
 	
 ## Fundamentals
 Java programs Have at least 
@@ -19,7 +12,13 @@ semi-colons are used to end a statement like so
 	Systems.out.println("hello world");	
 
 this is the syntax to print something  
-			
+
+### Comments	
+	//this is a single line comment
+
+	/*
+	this is a multiline comment
+	*/		
 ## Compiling
 in the console, to compile a file we use the command 
 
@@ -30,13 +29,13 @@ we run the executable with the command
 	java FilName
 
 #### Example of Compiling
-
+	
 	public class Welcome {
 		public static void main(String[] args) {
 			System.out.print("Welcome");
 		}
 	}
-
+	
 if we successfully compile this program, we will have two files 
 
 - welcome.java - our original file with java 
