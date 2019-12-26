@@ -14,7 +14,7 @@
 	line 
 	comment
 	'''
-	
+
 	#single line comment
 
 ## Basic Syntax
@@ -42,43 +42,56 @@ an if statement can be created using the following syntax:
 
 
 ## Variables
-Python is what we call a "dynamic type" language, this means that we do not have to declare the data type when we create a variable.
+>Python is what we call a "dynamic type" language, this means that we do not have to declare the data type when we create a variable.
 
 	car = "ford"
 
 ### Concatenation
-to combine or concatenate strings and variables use this syntax:
+>to combine or concatenate strings and variables use this syntax:
 
 	print("I have a " + car)
-
-
-name = input ("whats your name")		#this will allow the user to input thier name
-	print("hello" + name + "!")
-
-age = input ("how old are you ?")			#this will allow the user to input thier age
-	print("oh, so you are" + age)
 	
-	
-	
-FUNCTIONS
+## Functions
 
-len(variable)					#this will output the length of a variable
-str(variable)					#this will turn the variable into a string
-variable.upper()				#this turns every character to uppercase
-variable.lower()				#this turns every character to lowercase
+>functions are a huge part of Python and allow us to do a lot more things with our code.
 
-'''
+here are some of the most basic and useful ones:
+
+	len(variable)
+
+this will return the length of the variable in the brackets
+
+	str(variable)
+
+this will turn the variable into a string for example:
+the integer 67000 will become the string "67000"
+
+	variable.upper()
+
+this will turn the entire string uppercase for example:
+"Hello There" will become "HELLO THERE"
+
+	Variable.lower()
+
+this does the exact opposite, turning everything in the string to lower case.
+
+### Dot notation
 some functions use dot notation (variable.upper() for example)
 rather than putting the variable in the parentheses
 
 this is because dot notation can only be used on string variables
-'''
 
+## Date and Time
 
-DATE AND TIME
+	from datetime import datetime
 
-from datetime import datetime			#this line imports the function for the current date and time
-print(datetime.now())		#this will output the current date and time in the form DD-MM-YYYY HH:MM:SS.SSSSSS
+this line imports the function of date and time into the program. 
+
+the current date and time can be printed using the following syntax:
+	
+	print(datetime.now())	
+
+>this will print the date and time in the form "YYYY-MM-DD HH:MM:SS"
 
 now.month			#this will only output the current month
 now.year 			#this will only output the current year
