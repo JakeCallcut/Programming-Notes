@@ -93,30 +93,35 @@ the current date and time can be printed using the following syntax:
 
 >this will print the date and time in the form "YYYY-MM-DD HH:MM:SS"
 
-now.month			#this will only output the current month
-now.year 			#this will only output the current year
-now.day				#this will only output the current day
+	now.month
+	now.year 
+	now.day
 
+these functions will output the current month, year and day respectively
 
-from datetime import datetime
-now = datetime.now()
-print '%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
+	from datetime import datetime
+	now = datetime.now()
+	print '%02d/%02d/%04d %02d:%02d:%02d' % (now.month, now.day, now.year, now.hour, now.minute, now.second)
 
-						#this slice of code will print the date and time in a nicer format
+this slice of code will output the date and time in a niceer format
 
+## Substrings
 
-SUBSTRINGS
+### What is a substring
 
-example = "this is how to make a substring"
-substring = example[0:10]							#the first number is the start of the substring and the last is the last
-Print(substring)									#this will print "this is how"
+>a substring is a part of a string which can be extracted using a functions
 
-#also, if you leave the character last character blank, the subtring will continue until the end of the string
-substring = example[21:]
-Print(substring)							#this will print "substring"
+you can extract the substring using the following syntax:
 
+	string = "hello this is a string"
+	substring = string[0:4]
 
-ARRAYS #("Python Lists" in Python)
+	print(substring)
+
+this will print "hello"
+
+the two parameters in the square brackets are the start and the end of the substring
+## Arrays
 
 Cars = ["volvo", "ford", "peugeot"]
 FavNumbers = [24, 64, 2]
