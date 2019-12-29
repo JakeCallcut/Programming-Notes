@@ -107,8 +107,6 @@ this slice of code will output the date and time in a niceer format
 
 ## Substrings
 
-### What is a substring
-
 >a substring is a part of a string which can be extracted using a functions
 
 you can extract the substring using the following syntax:
@@ -120,13 +118,30 @@ you can extract the substring using the following syntax:
 
 this will print "hello"
 
-the two parameters in the square brackets are the start and the end of the substring
+the two parameters in the square brackets are the start and the end of the substring,
+
+if you leave the end of last parameter blank, the subtring will carry on until the end of the string
+
 ## Arrays
 
-Cars = ["volvo", "ford", "peugeot"]
-FavNumbers = [24, 64, 2]
+>in Python arrays are called Python lists, they are essentially the same thing.
 
-Cars[3] = "nissan"
-FirstCar = Cars[0]
+>arrays are a one dimensional set of separate variables.
 
+arrays can be created by using the following syntax:
+
+	Cars = ["volvo", "ford", "peugeot"]
+	FavNumbers = [24, 64, 2]
+
+arrays can be made with any data type
+
+different items of the array can be addressed using square brackets, using the following syntax
+
+	Cars[3] = "nissan"
+	FirstCar = Cars[0]
+
+you can manipulate this by using variables in its place, for example, you can cycle through an array like this:
+
+	while (counter < len(array))
+	
 NumberOfCars = len(Cars)
