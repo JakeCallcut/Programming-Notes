@@ -52,8 +52,9 @@ an if statement can be created using the following syntax:
 	print("I have a " + car)
 	
 ## Functions
+### Built-in Functions
 
->functions are a huge part of Python and allow us to do a lot more things with our code.
+>functions are a huge part of Python and allow us to do a lot more things with our code. These can either be built or you can use python's built-in functions
 
 here are some of the most basic and useful ones:
 
@@ -75,7 +76,31 @@ this will turn the entire string uppercase for example:
 
 this does the exact opposite, turning everything in the string to lower case.
 
-### Dot notation
+	max(variable, variable, variable)
+
+this will output the largest of its arguements
+
+	min(variable, variable, variable)
+
+this does the exact opposite of max()
+
+	abs()
+
+this is the equivalent of modulo in mathmatics (|number|), this will return the distance from 0, for example:
+
+	abs(-3) == 3
+	abs(3) == 3
+
+it will always output a positive number
+
+	type(variable)
+
+this will return the variables data type, this is especially useful for dynamic type languages like Python
+
+	
+
+#### Dot notation
+
 some functions use dot notation (variable.upper() for example)
 rather than putting the variable in the parentheses
 
