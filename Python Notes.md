@@ -170,3 +170,40 @@ you can manipulate this by using variables in its place, for example, you can cy
 	while (counter < len(array))
 	
 NumberOfCars = len(Cars)
+
+## GUI
+>GUI stands for Graphical User Interface and is the "face" of most of the applications we use daily
+
+### tkinter for GUI
+
+>Tkinter is the most popular method of creating a GUI and is a method that comes with python.
+
+	import tkinter
+	window = tkinter.Tk()
+    	#Window code here
+	window.mainloop()
+
+this slice of code will make the most basic window that is possible, a resizable blank window with the title "tk"
+
+### widgets
+>in tkinter there are 15 basic widgets(interactive items for an application) & they are the following:
+
+	Button
+	Canvas
+	Checkbutton
+	Entry
+	Frame
+	Labal
+	Listbox
+	Menubutton
+	Menu
+	Message
+	Radiobutton
+	Scale
+	Scrollbar
+	Text
+	Toplevel
+	Spinbox
+	Panedwindow
+	Labelframe
+	tkMessagebox
