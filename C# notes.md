@@ -45,3 +45,31 @@ If you need to have a question before the input, simply put a output statement b
     Console.WriteLine("Please enter your name")
     Console.ReadLine()
 
+***
+
+## Variables
+### Data Types
+
+>C# has the same data types as most other mainstream programming languages.
+
+here is a list of the basic ones and briefly what they store:
+
+    int - whole numbers
+    double - decimal numbers
+    char - single characters 
+    string - a string of characters
+    bool - stores true or false
+
+ to declare a variable, you must use the following code:
+
+    int age = 25
+
+the syntax here is using, the data type followed by the variable name and assigning it a value.
+
+when declaring a string or a char, you must use quotation marks or speech marks e.g:
+
+    char FaveLetter = 'X'
+    string Name = "James"
+
+>N.B Though not essential, it is common practice to use quotation marks for 
+
