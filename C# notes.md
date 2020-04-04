@@ -32,6 +32,8 @@
 
 to output a variable use:
 
+    Console.WriteLine(variable);
+
 ***
 
 to get input from the user, you must use the following code
@@ -62,14 +64,23 @@ here is a list of the basic ones and briefly what they store:
 
  to declare a variable, you must use the following code:
 
-    int age = 25
+    int age = 25;
 
 the syntax here is using, the data type followed by the variable name and assigning it a value.
 
 when declaring a string or a char, you must use quotation marks or speech marks e.g:
 
-    char FaveLetter = 'X'
-    string Name = "James"
+    char FaveLetter = 'X';
+    string Name = "James";
 
->N.B Though not essential, it is common practice to use quotation marks for 
+>N.B Though not essential, it is common practice to use quotation marks for characters and speach marks for a string, as above.
+
+you can create a variable, without assigning it a value or with assigning it a value:
+
+    int age;
+    string name = "James";
+
+### Converting Data Types
+
+
 
