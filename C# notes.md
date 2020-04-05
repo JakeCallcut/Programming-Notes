@@ -113,5 +113,8 @@ a *double* is usually the best to use for general application, as it is more pre
 
     decimal return = 43800.56m;
 
-you have to use an m after the number so that C# knows we are defining a decimal.
+you have to use an m after the number so that C# knows we are defining a *decimal*.
 
+### Incrementing and Decrementing
+
+> Incrementing and decrementing a number means adding a 
