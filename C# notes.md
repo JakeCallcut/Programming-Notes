@@ -82,5 +82,26 @@ you can create a variable, without assigning it a value or with assigning it a v
 
 ### Converting Data Types
 
+In programming there are two types of variable conversion, implicit and explicit:
+
+> Implicit conversion is when no data is lost in the conversion, this means you can convert an integer to a double but not the other way around.
+
+    e.g
+    int MyInt = MyDouble   //this code will not work
+
+    double MyDouble = MyInt   //this code will work
+
+> Explicit conversion is where data is lost in the conversion. for example, converting a double to an integer. this has to be done using an operator.
+
+    e.g
+    int MyInt = Convert.ToInt(MyDouble)
+
+We must convert variables very often because:
+    
+    Console.Readline()
+
+Will always return a string. so if we want an integer input we have to do the following:
+
+    int Input = Convert.ToInt32(Console.ReadLine());
 
 
