@@ -104,4 +104,14 @@ Will always return a string. so if we want an integer input we have to do the fo
 
     int Input = Convert.ToInt32(Console.ReadLine());
 
+## Number Work
+### Decimal Numbers
+
+> when using a decimal, there are *decimals*, *floats* and *doubles*.
+
+a *double* is usually the best to use for general application, as it is more precise than a *float* but is faster to proccess than a *decimal*, for financial applications one should use a *decimal*, as it is the most precise.
+
+    decimal return = 43800.56m;
+
+you have to use an m after the number so that C# knows we are defining a decimal.
 
