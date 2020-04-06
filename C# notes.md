@@ -117,4 +117,52 @@ you have to use an m after the number so that C# knows we are defining a *decima
 
 ### Incrementing and Decrementing
 
-> Incrementing and decrementing a number means adding a 
+> Incrementing and decrementing a number means adding a certain amount to a number.
+
+there are some shortcuts to increment and decrement in C#:
+
+If you want to increment or decrement by one you can use -- or ++, like so:
+
+    MyNumber++;
+    MyNumber--;
+
+if you want to incrememt or decrement by a number other than one like so:
+
+    Increment by three
+    MyNumber+=3;
+
+    Decrement by three
+    MyNumber-=3;
+
+### Advanced Mathmatical Operations
+
+Some more complex operations such as square root are not represented in C# by characters, so we must use function dot notation.
+
+these are a few,
+
+    Math.Abs(Number) - returns the distance from 0
+    Math.Sqrt(Number) - returns the square root of a number
+    Math.Floor(Number) - truncates the number to an integer
+    Math.Min(Number) - returns the smaller of the two numbers
+
+Math.Min() has some different syntax like so:
+
+    Math.Min(15,8);
+    This will return 8
+
+> N.B Math.Sqrt() cannot take a negative number as input, this can be circumvented by using Math.Abs() inside Math.Sqrt() like so:
+
+    Math.Sqrt(Math.Abs(-1337));
+    this will return the positive solution for the square root of -1337
+
+
+
+
+
+
+
+
+
+
+
+
