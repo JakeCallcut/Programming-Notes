@@ -104,7 +104,7 @@ Will always return a string. so if we want an integer input we have to do the fo
 
     int Input = Convert.ToInt32(Console.ReadLine());
 
-## Number Work
+## Working with Numbers
 ### Decimal Numbers
 
 > when using a decimal, there are *decimals*, *floats* and *doubles*.
@@ -144,6 +144,8 @@ these are a few,
     Math.Sqrt(Number) - returns the square root of a number
     Math.Floor(Number) - truncates the number to an integer
     Math.Min(Number) - returns the smaller of the two numbers
+    Math.Max(Number) - returns the greater of the two numbers    
+    Math.Pow(Number) - 
 
 Math.Min() has some different syntax like so:
 
@@ -154,6 +156,28 @@ Math.Min() has some different syntax like so:
 
     Math.Sqrt(Math.Abs(-1337));
     this will return the positive solution for the square root of -1337
+
+#### Math.Pow( ):
+
+>Math.Pow( ) is a built-in method which you can use for raising a number to an exponent, the method has two parameters.
+
+the first is the number which you want to raise to the power of the exponent, which is the second parameter. e.g
+
+    Math.Pow(2, 3);
+    this will return 8, (2^3)
+
+#### Math.Ceiling( ):
+
+>Math.Ceiling( ) rounds the decimal number UP to the nearest whole number no matter the decimal value. e.g
+
+    Math.Ceiling(7.13);
+    will return 8
+
+## Working With Text
+
+
+
+
 
 
 
