@@ -175,10 +175,62 @@ the first is the number which you want to raise to the power of the exponent, wh
 
 ## Working With Text
 
+### Escape Character
 
+Lets say you want to put speech marks within a string, doing this wont work:
 
+    Console.WriteLine("this is a speech mark " ")
 
+Because the second speech mark will end the string, then you have an open speech mark and everything gets confusing.
 
+so we must uses an escape character, in C# this is backslash "\" e.g:
+
+    String sentence = "Perhaps the most famous latin phrase: \"Veni, Vidi, Vici\"";
+
+    Console.WriteLine(sentence);
+
+this will return:
+
+Perhaps the most famous latin phrase: "Veni, Vidi, Vici"
+
+### Line Break
+
+Lets say that you want to output two statements to the Console, but on different lines:
+
+    Like
+
+    This
+
+to do this we simply use the line of code:
+
+    Console.WriteLine("\n")
+
+this will create a line break.
+
+### Concatenation and interpolation
+****
+#### concatenation
+concatenation is the joining of two strings, in C# this can be done with a "+" like so:
+
+    String firstWord = "veni "
+    String secondWord = "vidi "
+    String thirdWord = "vici "
+
+    string phrase = firstWord + secondWord + thirdWord
+    Console.WriteLine(phrase)
+
+this will return "veni vidi vici"
+
+#### Interpolation
+An alternative to concatenation is interpolation, this is where one can insert variables seamlessly into a string e.g
+
+    string phrase = "veni, vidi, vici"
+
+    Console.WriteLine($"Perhaps the most famous latin phrase: {phrase});
+
+in this code, the dollar sign ($) tells C# that we are going to be using interpolation in this string.
+
+then, any variable that you want to insert you must put in {braces}.
 
 
 
